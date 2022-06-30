@@ -1,0 +1,53 @@
+.tag-block {
+    margin-bottom: 1px;
+
+    &__body {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -3px;
+    }
+    &__item {
+
+        &:nth-child(n+12) {
+            display: none;
+        }
+
+        @media all and (max-width: 639px) {
+            &:nth-child(n+4) {
+                display: none;
+            }
+        }
+
+        &.active {
+            display: block;
+        }
+
+        a {
+            @extend .btn-3;
+            display: inline-flex;
+            margin: 0 4px 8px;
+            padding: 8.5px 7px;
+            font-size: 12px;
+            font-weight: var(--font1_400);
+            text-decoration: none;
+
+            @media all and (max-width: 639px) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__more {
+        display: none;
+
+        &-btn {
+            @extend .btn-2;
+            display: inline-flex;
+            margin: 0 4px 8px;
+            padding: 8.5px 7px;
+            font-size: 12px;
+            font-weight: var(--font1_400);
+
+            cursor: pointer;
+        }
+    }
+}

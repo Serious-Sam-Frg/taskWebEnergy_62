@@ -1,0 +1,423 @@
+// Кнопки
+//----------------------------------------------------------------------------//
+
+	// Font-famly кнопок
+	$btnsFontFamily:              		var(--font1);
+	//---------------------------------------------------//
+
+	// Кнопка 1
+	//---------------------------------------------------//
+		// Font weight
+		$btn1Weight: 						var(--font1_400);
+
+		// Text color
+		$btn1ColorDefault:                  var(--btn_1_text);
+		$btn1ColorHover:                    var(--btn_1_text_h);
+		$btn1ColorActive:                   var(--btn_1_text_a);
+
+		// Background
+		$btn1BackgroundDefault:             var(--btn_1_bg);
+		$btn1BackgroundHover:               var(--btn_1_bg_h);
+		$btn1BackgroundActive:              var(--btn_1_bg_a);
+
+		// Box-shadow
+		$btn1ShadowDefault:                 none;
+		$btn1ShadowHover:                   none;
+		$btn1ShadowActive:                  none;
+
+		// Border
+		$btn1BorderDefault:                 1px solid var(--btn_1_border);
+		$btn1BorderHover:                   1px solid var(--btn_1_border_h);
+		$btn1BorderActive:                  1px solid var(--btn_1_border_a);
+	//---------------------------------------------------//
+
+
+	// Кнопка 2
+	//---------------------------------------------------//
+		// Font weight
+		$btn2Weight: 						var(--font1_400);
+
+		// Text color
+		$btn2ColorDefault:                  var(--btn_2_text);
+		$btn2ColorHover:                    var(--btn_2_text_h);
+		$btn2ColorActive:                   var(--btn_2_text_1);
+
+		// Background
+		$btn2BackgroundDefault:             var(--btn_2_bg);
+		$btn2BackgroundHover:               var(--btn_2_bg_h);
+		$btn2BackgroundActive:              var(--btn_2_bg_a);
+
+		// Box-shadow
+		$btn2ShadowDefault:                 none;
+		$btn2ShadowHover:                   none;
+		$btn2ShadowActive:                  none;
+
+		// Border
+		$btn2BorderDefault:                 1px solid var(--btn_2_border);
+		$btn2BorderHover:                   1px solid var(--btn_2_border_h);
+		$btn2BorderActive:                  1px solid var(--btn_2_border_a);
+	//---------------------------------------------------//
+
+
+	// Кнопка 3
+	//---------------------------------------------------//
+		// Font weight
+		$btn3Weight: 						var(--font1_400);
+
+		// Text color
+		$btn3ColorDefault:                  var(--btn_3_text);
+		$btn3ColorHover:                    var(--btn_3_text_h);
+		$btn3ColorActive:                   var(--btn_3_text_a);
+
+		// Background
+		$btn3BackgroundDefault:             var(--btn_3_bg);
+		$btn3BackgroundHover:               var(--btn_3_bg_h);
+		$btn3BackgroundActive:              var(--btn_3_bg_a);
+
+		// Box-shadow
+		$btn3ShadowDefault:                 none;
+		$btn3ShadowHover:                   none;
+		$btn3ShadowActive:                  none;
+
+		// Border
+		$btn3BorderDefault:                 1px solid var(--btn_3_border);
+		$btn3BorderHover:                   1px solid var(--btn_3_border_h);
+		$btn3BorderActive:                  1px solid var(--btn_3_border_a);
+	//---------------------------------------------------//
+
+	// Кнопка c иконкой 1
+	//---------------------------------------------------//
+		// Background
+		$icon1BackgroundDefault:             var(--icon_btn_1_bg);
+		$icon1BackgroundHover:               var(--icon_btn_1_bg_h);
+		$icon1BackgroundActive:              var(--icon_btn_1_bg_a);
+
+		// Box-shadow
+		$icon1ShadowDefault:                 none;
+		$icon1ShadowHover:                   none;
+		$icon1ShadowActive:                  none;
+
+		// Border
+		$icon1BorderDefault:                 1px solid var(--icon_btn_1_border);
+		$icon1BorderHover:                   1px solid var(--icon_btn_1_border_h);
+		$icon1BorderActive:                  1px solid var(--icon_btn_1_border_a);
+	//---------------------------------------------------//
+
+	// Кнопка купить
+	//---------------------------------------------------//
+		// Font
+		$buyFontFamily:              		var(--font1);
+		$buyWeight: 						var(--font1_400);
+
+
+		// Text color
+		$buyColorDefault:                  var(--text_on_color2);
+		$buyColorHover:                    var(--text_on_color1);
+		$buyColorActive:                   var(--text_on_color1);
+
+		$buyColorDefaultMob:                  var(--text_on_color1);
+		$buyColorHoverMob:                    var(--text_on_color1);
+		$buyColorActiveMob:                   var(--text_on_color1);
+
+		// Background
+		$buyBackgroundDefault:             none;
+		$buyBackgroundHover:               var(--color1);
+		$buyBackgroundActive:              var(--color1);
+
+		$buyBackgroundDefaultMob:             var(--color1);
+		$buyBackgroundHoverMob:               var(--color1);
+		$buyBackgroundActiveMob:              var(--color1);
+
+		// Box-shadow
+		$buyShadowDefault:                 none;
+		$buyShadowHover:                   none;
+		$buyShadowActive:                  none;
+
+		$buyShadowDefaultMob:                 none;
+		$buyShadowHoverMob:                   none;
+		$buyShadowActiveMob:                  none;
+
+		// Border
+		$buyBorderDefault:                 1px solid var(--border3_on_site_bg);
+		$buyBorderHover:                   1px solid var(--color1);
+		$buyBorderActive:                  1px solid var(--color1);
+
+		$buyBorderDefaultMob:                 1px solid var(--color1);
+		$buyBorderHoverMob:                   1px solid var(--color1);
+		$buyBorderActiveMob:                  1px solid var(--color1);
+	//---------------------------------------------------//
+//----------------------------------------------------------------------------//
+
+
+.btn-style {
+	position: relative;
+	z-index: 1;
+
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+	height: auto;
+	min-height: auto;
+
+	padding: 0;
+
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background-clip: border-box;
+	transition: var(--transition);
+}
+
+.btn-1,
+.btn-2,
+.btn-3,
+.icon-btn-1,
+.buy-btn {
+	@extend .btn-style;
+}
+
+.btn-1 {
+	font-weight: $btn1Weight;
+	font-family: $btnsFontFamily;
+
+	color: $btn1ColorDefault;
+	border: $btn1BorderDefault;
+	background: $btn1BackgroundDefault;
+	box-shadow: $btn1ShadowDefault;
+
+	border-radius: var(--btn_radius);
+	font-size: 16px;
+	padding: 9px 11px;
+	line-height: 1;
+
+	svg {
+		fill: $btn1ColorDefault;
+	}
+
+	&:hover {
+		color: $btn1ColorHover;
+		border: $btn1BorderHover;
+		box-shadow: $btn1ShadowHover;
+		background: $btn1BackgroundHover;
+
+		svg {
+			fill: $btn1ColorHover;
+		}
+	}
+
+	&:active {
+		color: $btn1ColorActive;
+		border: $btn1BorderActive;
+		box-shadow: $btn1ShadowActive;
+		background: $btn1BackgroundActive;
+
+		svg {
+			fill: $btn1ColorActive;
+		}
+	}
+}
+
+.btn-2 {
+	font-weight: $btn2Weight;
+	font-family: $btnsFontFamily;
+
+	color: $btn2ColorDefault;
+	border: $btn2BorderDefault;
+	background: $btn2BackgroundDefault;
+	box-shadow: $btn2ShadowDefault;
+
+	border-radius: var(--btn_radius);
+	font-size: 16px;
+	padding: 9px 11px;
+	line-height: 1;
+
+	svg {
+		fill: $btn2ColorDefault;
+	}
+
+	&:hover {
+		color: $btn2ColorHover;
+		border: $btn2BorderHover;
+		box-shadow: $btn2ShadowHover;
+		background: $btn2BackgroundHover;
+
+		svg {
+			fill: $btn2ColorHover;
+		}
+	}
+
+	&:active {
+		color: $btn2ColorActive;
+		border: $btn2BorderActive;
+		box-shadow: $btn2ShadowActive;
+		background: $btn2BackgroundActive;
+
+		svg {
+			fill: $btn2ColorActive;
+		}
+	}
+}
+
+.btn-3 {
+	font-weight: $btn3Weight;
+	font-family: $btnsFontFamily;
+
+	color: $btn3ColorDefault;
+	border: $btn3BorderDefault;
+	background: $btn3BackgroundDefault;
+	box-shadow: $btn3ShadowDefault;
+
+	border-radius: var(--btn_radius);
+	font-size: 16px;
+	padding: 9px 11px;
+	line-height: 1;
+
+	svg {
+		fill: $btn3ColorDefault;
+	}
+
+	&:hover {
+		color: $btn3ColorHover;
+		border: $btn3BorderHover;
+		box-shadow: $btn3ShadowHover;
+		background: $btn3BackgroundHover;
+
+		&:before {
+			display: none;
+		}
+
+		svg {
+			fill: $btn3ColorHover;
+		}
+	}
+
+	&:active {
+		color: $btn3ColorActive;
+		border: $btn3BorderActive;
+		box-shadow: $btn3ShadowActive;
+		background: $btn3BackgroundActive;
+
+		&:before {
+			display: none;
+		}
+
+		svg {
+			fill: $btn3ColorActive;
+		}
+	}
+}
+
+.icon-btn-1 {
+	border-radius: var(--icon_btn_radius);
+
+	font-size: 0;
+
+	padding: 0;
+	opacity: 1;
+	visibility: visible;
+	transition: var(--transition);
+	border: $icon1BorderDefault;
+	background: $icon1BackgroundDefault;
+	box-shadow: $icon1ShadowDefault;
+
+
+	padding: 8px 12px;
+
+	@media all and (max-width: 639px) {
+		padding: 10px 14px;
+	}
+
+	&:before {
+		border-radius: var(--icon_btn_radius);
+	}
+
+	&:hover {
+		border: $icon1BorderHover;
+		box-shadow: $icon1ShadowHover;
+		background: $icon1BackgroundHover;
+
+		svg {
+			stroke: var(--icon_btn_1_icon_h);
+		}
+	}
+
+	&:active {
+		border: $icon1BorderActive;
+		box-shadow: $icon1ShadowActive;
+		background: $icon1BackgroundActive;
+
+		svg {
+			stroke: var(--icon_btn_1_icon_a);
+		}
+	}
+
+	svg {
+		width: 30px;
+		height: 30px;
+		stroke: var(--icon_btn_1_icon);
+		transition: var(--transition);
+	}
+}
+
+.buy-btn {
+	font-weight: $buyWeight;
+	font-family: $buyFontFamily;
+
+	color: $buyColorDefault;
+	border: $buyBorderDefault;
+	background: $buyBackgroundDefault;
+	box-shadow: $buyShadowDefault;
+
+	border-radius: var(--btn_radius);
+	font-size: 16px;
+	padding: 9px 11px;
+	line-height: 1;
+
+	&:hover {
+		color: $buyColorHover;
+		border: $buyBorderHover;
+		box-shadow: $buyShadowHover;
+		background: $buyBackgroundHover;
+	}
+
+	&:active {
+		color: $buyColorActive;
+		border: $buyBorderActive;
+		box-shadow: $buyShadowActive;
+		background: $buyBackgroundActive;
+	}
+
+	@media all and (max-width: 639px) {
+
+		color: $buyColorDefaultMob;
+		border: $buyBorderDefaultMob;
+		background: $buyBackgroundDefaultMob;
+		box-shadow: $buyShadowDefaultMob;
+
+		border-radius: var(--btn_radius);
+		font-size: 16px;
+		padding: 11px 11px;
+		line-height: 1;
+
+		&:hover {
+			color: $buyColorHoverMob;
+			border: $buyBorderHoverMob;
+			box-shadow: $buyShadowHoverMob;
+			background: $buyBackgroundHoverMob;
+		}
+
+		&:active {
+			color: $buyColorActiveMob;
+			border: $buyBorderActiveMob;
+			box-shadow: $buyShadowActiveMob;
+			background: $buyBackgroundActiveMob;
+		}
+
+	}
+}

@@ -1,0 +1,139 @@
+:root {
+    --color1: #EB4747;
+    --text_on_color1: #FFFFFF;
+    --icon_on_color1: #FFFFFF;
+
+    --color2: #F9F9FA;
+    --text_on_color2: #52575C;
+    --icon_on_color2: #52575C;
+
+    --color3: #1A8BFF;
+    /*----------Background----------*/
+
+    /*----------Background----------*/
+    --site_bg: #FFFFFF;
+
+    --text_on_site_bg: #828282;
+    --text2_on_site_bg: #25282B;
+    --text3_on_site_bg: #A0A4A8;
+    --text4_on_site_bg: #000000;
+
+    --icon_on_site_bg: #A0A4A8;
+    --icon2_on_site_bg: #CACCCF;
+    --icon3_on_site_bg: #25282B;
+
+    --bg_on_site_bg: #F2F2F2;
+    --bg2_on_site_bg: #F9F9FA;
+
+    --border_on_site_bg: #CACCCF;
+    --border2_on_site_bg: #E8E8E8;
+    --border3_on_site_bg: #A0A4A8;
+    /*----------Background----------*/
+
+    /*----------Footer----------*/
+    --footer_bg: #F9F9FA;
+    --text_on_footer_bg: #52575C;
+    --text2_on_footer_bg: #A0A4A8;
+    --text3_on_footer_bg: #000000;
+
+    --icon_on_footer_bg: #A0A4A8;
+
+    --bg_on_footer_bg: #FFFFFF;
+
+    --border_on_footer_bg: #E8E8E8;
+    /*----------Footer----------*/
+
+    /*----------Закругления----------*/
+    --wrap_radius: 2px;
+
+    --btn_radius: 2px;
+    --icon_btn_radius: 2px;
+
+    --form_radius: 2px;
+    --checkbox_radius: 2px;
+    /*----------Закругления----------*/
+
+    /*----------Кнопки с текстом----------*/
+        /*Кнопка 1*/
+            --btn_1_text: var(--text_on_color2);
+            --btn_1_text_h: var(--text_on_color1);
+            --btn_1_text_a: var(--text_on_color1);
+
+            --btn_1_bg: none;
+            --btn_1_bg_h: var(--color1);
+            --btn_1_bg_a: var(--color1);
+
+            --btn_1_border: var(--border3_on_site_bg);
+            --btn_1_border_h: var(--color1);
+            --btn_1_border_a: var(--color1);
+
+        /*Кнопка 2*/
+            --btn_2_text: var(--color1);
+            --btn_2_text_h: var(--text_on_color1);
+            --btn_2_text_a: var(--text_on_color1);
+
+            --btn_2_bg: none;
+            --btn_2_bg_h: var(--color1);
+            --btn_2_bg_a: var(--color1);
+
+            --btn_2_border: var(--color1);
+            --btn_2_border_h: var(--color1);
+            --btn_2_border_a: var(--color1);
+
+        /*Кнопка 3*/
+            --btn_3_text: var(--text_on_color2);
+            --btn_3_text_h: var(--text_on_color1);
+            --btn_3_text_a: var(--text_on_color1);
+
+            --btn_3_bg: var(--color2);
+            --btn_3_bg_h: var(--color1);
+            --btn_3_bg_a: var(--color1);
+
+            --btn_3_border: var(--border_on_site_bg);
+            --btn_3_border_h: var(--color1);
+            --btn_3_border_a: var(--color1);
+
+    /*----------Кнопки с текстом----------*/
+
+    /*----------Кнопки только с иконкой----------*/
+        /*Кнопка 1*/
+            --icon_btn_1_icon: var(--icon_on_site_bg);
+            --icon_btn_1_icon_h: var(--icon_on_color1);
+            --icon_btn_1_icon_a: var(--icon_on_color1);
+
+            --icon_btn_1_bg: none;
+            --icon_btn_1_bg_h: var(--color1);
+            --icon_btn_1_bg_a: var(--color1);
+
+            --icon_btn_1_border: var(--border3_on_site_bg);
+            --icon_btn_1_border_h: var(--color1);
+            --icon_btn_1_border_a: var(--color1);
+    /*----------Кнопки только с иконкой----------*/
+
+
+    /*----------Тени----------*/
+        --shadow_1: 0px 0px 20px rgba(37, 40, 43, 0.2);
+        --shadow_2: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        --shadow_3: 0px 0px 4px rgba(37, 40, 43, 0.2);
+        --shadow_4: 0px 4px 20px rgba(37, 40, 43, 0.2);
+        --shadow_5: 0px 2px 6px rgba(37, 40, 43, 0.15);
+    /*----------Тени----------*/
+
+
+    /*----------Жирность шрифтов----------*/
+        --font1_100: 100;
+        --font1_200: 200;
+        --font1_300: 300;
+        --font1_400: 400;
+        --font1_500: 500;
+        --font1_600: 600;
+        --font1_700: 700;
+        --font1_800: 800;
+        --font1_900: 900;
+    /*----------Жирность шрифтов----------*/
+
+    --transition: all 0.3s ease;
+
+    --noImageDefault: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" version="1.1" baseProfile="full" xml:space="preserve" x="0px" y="0px" width="82px" height="68px" viewBox="0 0 82 68" preserveAspectRatio="none" shape-rendering="geometricPrecision"><path fill="rgb(182, 183, 186)" d="M70.346,9.116 L11.654,9.116 C10.462,9.116 9.496,10.079 9.496,11.267 L9.496,43.805 C9.496,43.830 9.502,43.853 9.503,43.877 C9.473,44.445 9.663,45.023 10.086,45.468 C10.904,46.331 12.270,46.370 13.136,45.553 L25.846,33.566 L38.291,44.679 C38.990,45.304 40.015,45.406 40.825,44.931 L51.419,38.721 L61.787,46.929 C62.184,47.243 62.657,47.396 63.127,47.396 C63.763,47.396 64.393,47.117 64.819,46.582 C65.560,45.651 65.404,44.298 64.471,43.559 L52.943,34.433 C52.244,33.879 51.277,33.812 50.507,34.263 L39.996,40.425 L27.246,29.039 C26.409,28.292 25.139,28.309 24.324,29.079 L13.811,38.993 L13.811,13.419 L68.189,13.419 L68.189,54.579 L13.811,54.579 L13.811,51.981 C13.811,50.793 12.846,49.829 11.654,49.829 C10.462,49.829 9.496,50.793 9.496,51.981 L9.496,56.731 C9.496,57.920 10.462,58.883 11.654,58.883 L70.346,58.883 C71.538,58.883 72.504,57.920 72.504,56.731 L72.504,11.267 C72.504,10.079 71.538,9.116 70.346,9.116 ZM77.359,0.001 L4.641,0.001 C2.083,0.001 0.001,2.059 0.001,4.589 L0.001,63.409 C0.001,65.939 2.083,67.997 4.641,67.997 L77.359,67.997 C79.917,67.997 81.999,65.939 81.999,63.409 L81.999,4.589 C81.999,2.059 79.917,0.001 77.359,0.001 ZM77.683,63.409 C77.683,63.566 77.538,63.694 77.359,63.694 L4.641,63.694 C4.462,63.694 4.317,63.566 4.317,63.409 L4.317,4.589 C4.317,4.432 4.462,4.304 4.641,4.304 L77.359,4.304 C77.538,4.304 77.683,4.432 77.683,4.589 L77.683,63.409 ZM34.273,25.524 C34.273,29.152 37.234,32.104 40.872,32.104 C44.510,32.104 47.470,29.152 47.470,25.524 C47.470,21.896 44.510,18.944 40.872,18.944 C37.234,18.944 34.273,21.896 34.273,25.524 ZM43.155,25.524 C43.155,26.779 42.131,27.800 40.872,27.800 C39.613,27.800 38.589,26.779 38.589,25.524 C38.589,24.268 39.613,23.247 40.872,23.247 C42.131,23.247 43.155,24.268 43.155,25.524 Z"/></svg>') 50% no-repeat var(--gr_disable);
+
+}
